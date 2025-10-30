@@ -28,7 +28,7 @@ git commit -m "Initial portfolio website commit"
 
 ```bash
 cd ~/portfolio-website
-git remote add origin https://github.com/zevbschuman/portfolio.git
+git remote add origin https://github.com/zev-schuman/portfolio.git
 git push -u origin main
 ```
 
@@ -45,7 +45,7 @@ You may be prompted for your GitHub credentials.
 ## Step 5: Your Portfolio is Live!
 
 Wait 2-5 minutes, then visit:
-**https://zevbschuman.github.io/portfolio/**
+**https://zev-schuman.github.io/portfolio/**
 
 ---
 
