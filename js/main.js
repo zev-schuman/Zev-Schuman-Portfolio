@@ -92,6 +92,57 @@ const projectData = {
         ],
         tags: ['UAV Systems', 'Testing', 'SolidWorks', 'Analytical Modeling', 'Collaboration'],
         image: 'Image placeholder for UAV Launcher project'
+    },
+    'llnl': {
+        title: 'Lawrence Livermore National Laboratory',
+        type: 'Graduate Mechanical Engineering Intern | Summer 2025',
+        description: 'Designed and fabricated precision clamps for telescope satellite lens mounting using optomechanics principles.',
+        details: [
+            'Designed and fabricated precision clamp for telescope satellite lens mounting using optomechanics principles',
+            'Developed 3D models using SolidWorks, produced functional prototypes and final products',
+            'Designed structure and performed tests to evaluate RTV566 adhesive bonding strength',
+            'Performed bolt torque calculations and developed dynamic tracking spreadsheet for satellite assembly'
+        ],
+        tags: ['Optomechanics', 'SolidWorks', 'Testing', 'Prototyping', 'Data Analysis'],
+        image: 'Image placeholder for LLNL project'
+    },
+    'atr-corp': {
+        title: 'UAV Launcher Design',
+        type: 'Advanced Technology and Research Corp | Summer 2024',
+        description: 'Worked with an engineering team to design, build, and test a UAV launcher system.',
+        details: [
+            'Worked with engineering team to design and build UAV launcher system',
+            'Created calculation workbooks predicting launch outcomes, compared with test data to optimize settings',
+            'Designed, manufactured, and assembled parts using SolidWorks',
+            'Tested launcher live in Huntsville, AL in collaboration with Griffon Aerospace'
+        ],
+        tags: ['UAV Systems', 'Testing', 'SolidWorks', 'Analytical Modeling'],
+        image: 'Image placeholder for ATR Corp project'
+    },
+    'airscort': {
+        title: 'Drone Docking Station',
+        type: 'Airscort | Summer 2023',
+        description: 'Created features from ideation to implementation for drone docking station improvements.',
+        details: [
+            'Created features from ideation to implementation for drone docking station improvements',
+            'Designed components using SolidWorks',
+            'Manufactured parts using 3D printer and power tools',
+            'Assisted in demonstrations for potential clients, helping to overcome language barriers'
+        ],
+        tags: ['SolidWorks', '3D Printing', 'Product Design', 'International Work'],
+        image: 'Image placeholder for Airscort project'
+    },
+    'codi': {
+        title: 'Software Development',
+        type: 'Codi, Series A Proptech Startup | Summer 2022',
+        description: 'Developed features using Ruby on Rails, React, TypeScript, JavaScript, and CSS.',
+        details: [
+            'Developed features using Ruby on Rails, React, TypeScript, JavaScript, and CSS',
+            'Attended daily sprint standups and bi-weekly sprint retrospectives',
+            'Contributed to a production web application in a fast-paced startup environment'
+        ],
+        tags: ['React', 'TypeScript', 'Ruby on Rails', 'Agile Development'],
+        image: 'Image placeholder for Codi project'
     }
 };
 
