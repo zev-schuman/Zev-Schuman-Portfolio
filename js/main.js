@@ -63,21 +63,6 @@ const projectData = {
         tags: ['Space Systems', 'Structures', 'Mission Design', 'Orbital Mechanics', 'Project Management'],
         image: 'Image placeholder for Space Mission Design project'
     },
-    'wing': {
-        title: 'Cantilevered Wing Design',
-        type: 'Engineering Design Class | Spring 2023',
-        description: 'A structural engineering competition project focused on optimizing weight and deflection under load.',
-        details: [
-            'Designed a 2-foot aluminum and nylon composite wing structure with the objective of minimizing both weight and deflection',
-            'Performed static simulations using CREO Parametric CAD software to optimize structural performance',
-            'Manufactured components using CNC machining, 3D printing, and manual milling techniques',
-            'Implemented finite element analysis to predict stress distribution and deformation',
-            'Won class competition by achieving both the lightest successful model (14.2 ounces) and the smallest deflection (4 inches under a 97-pound load)',
-            'Demonstrated ability to balance competing design objectives through systematic optimization'
-        ],
-        tags: ['FEA', 'CNC Machining', 'Optimization', 'Structural Design', 'Material Selection'],
-        image: 'Image placeholder for Cantilevered Wing project'
-    },
     'uav-launcher': {
         title: 'UAV Launcher Design',
         type: 'Advanced Technology and Research Corp | Summer 2024',
@@ -119,31 +104,6 @@ const projectData = {
         tags: ['UAV Systems', 'Testing', 'SolidWorks', 'Analytical Modeling'],
         image: 'Image placeholder for ATR Corp project'
     },
-    'airscort': {
-        title: 'Drone Docking Station',
-        type: 'Airscort | Summer 2023',
-        description: 'Created features from ideation to implementation for drone docking station improvements.',
-        details: [
-            'Created features from ideation to implementation for drone docking station improvements',
-            'Designed components using SolidWorks',
-            'Manufactured parts using 3D printer and power tools',
-            'Assisted in demonstrations for potential clients, helping to overcome language barriers'
-        ],
-        tags: ['SolidWorks', '3D Printing', 'Product Design', 'International Work'],
-        image: 'Image placeholder for Airscort project'
-    },
-    'codi': {
-        title: 'Software Development',
-        type: 'Codi, Series A Proptech Startup | Summer 2022',
-        description: 'Developed features using Ruby on Rails, React, TypeScript, JavaScript, and CSS.',
-        details: [
-            'Developed features using Ruby on Rails, React, TypeScript, JavaScript, and CSS',
-            'Attended daily sprint standups and bi-weekly sprint retrospectives',
-            'Contributed to a production web application in a fast-paced startup environment'
-        ],
-        tags: ['React', 'TypeScript', 'Ruby on Rails', 'Agile Development'],
-        image: 'Image placeholder for Codi project'
-    }
 };
 
 projectButtons.forEach(button => {
