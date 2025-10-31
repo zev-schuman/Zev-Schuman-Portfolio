@@ -702,23 +702,53 @@
         </div>
 
         <!-- Image Gallery -->
-        <div
-          style="
-            margin: 4rem 0;
-            text-align: center;
-            background: var(--bg-light);
-            padding: 3rem;
-            border-radius: 8px;
-          "
-        >
-          <p style="color: var(--text-light); margin-bottom: 0.5rem">
-            📸 Image Gallery Coming Soon
-          </p>
-          <p style="color: var(--text-light); font-size: 0.9rem">
-            Suggested images: Satellite CAD renderings, Von Mises stress plots,
-            modal analysis results, orbital configuration diagrams, NASA
-            presentation photos
-          </p>
+        <div style="margin: 4rem 0">
+          <h3
+            style="
+              font-size: 2rem;
+              margin-bottom: 2rem;
+              color: var(--primary-color);
+            "
+          >
+            Mission Design Visualizations
+          </h3>
+          
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 2rem;">
+            <div>
+              <img src="images/space-mission/cover.png" alt="Space mission design cover" style="width: 100%; border-radius: 8px; box-shadow: var(--shadow);" />
+              <p style="text-align: center; color: var(--text-light); margin-top: 1rem; font-size: 0.95rem;">
+                Mission Overview
+              </p>
+            </div>
+            <div>
+              <img src="images/space-mission/frame-design.png" alt="Satellite frame structure" style="width: 100%; border-radius: 8px; box-shadow: var(--shadow);" />
+              <p style="text-align: center; color: var(--text-light); margin-top: 1rem; font-size: 0.95rem;">
+                Satellite Frame Structure
+              </p>
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 2rem; margin-top: 2rem;">
+            <div>
+              <img src="images/space-mission/satellite-exterior.png" alt="Satellite exterior view" style="width: 100%; border-radius: 8px; box-shadow: var(--shadow);" />
+              <p style="text-align: center; color: var(--text-light); margin-top: 1rem; font-size: 0.95rem;">
+                Exterior Configuration
+              </p>
+            </div>
+            <div>
+              <img src="images/space-mission/satellite-interior.png" alt="Satellite interior assembly" style="width: 100%; border-radius: 8px; box-shadow: var(--shadow);" />
+              <p style="text-align: center; color: var(--text-light); margin-top: 1rem; font-size: 0.95rem;">
+                Interior Assembly Layout
+              </p>
+            </div>
+          </div>
+
+          <div style="margin-top: 2rem;">
+            <img src="images/space-mission/fea-simulations.png" alt="FEA modal analysis" style="width: 100%; max-width: 1000px; border-radius: 8px; box-shadow: var(--shadow); margin: 0 auto; display: block;" />
+            <p style="text-align: center; color: var(--text-light); margin-top: 1rem; font-size: 0.95rem;">
+              Modal Frequency Analysis - Four Vibration Modes
+            </p>
+          </div>
         </div>
 
         <!-- Back to Projects -->
