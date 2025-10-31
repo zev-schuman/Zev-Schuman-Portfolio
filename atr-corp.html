@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UAV Launcher Design - Zev Schuman Portfolio</title>
+    <link rel="stylesheet" href="css/option-a.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="index.html" class="nav-logo">ZS</a>
+        <ul class="nav-menu">
+          <li><a href="index.html#about" class="nav-link">About</a></li>
+          <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+          <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Project Hero -->
+    <section class="hero" style="padding-top: 8rem;">
+      <div class="container" style="max-width: 900px;">
+        <div style="text-align: center; margin-bottom: 3rem;">
+          <p style="color: var(--primary-color); font-weight: 600; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 1px;">
+            Summer 2024 • Internship
+          </p>
+          <h1 style="font-size: 3rem; margin-bottom: 1rem; color: var(--text-dark);">
+            UAV Launcher Design
+          </h1>
+          <h2 style="font-size: 1.5rem; color: var(--text-light); font-weight: 400;">
+            Advanced Technology and Research Corp
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Content -->
+    <section style="padding: 4rem 0;">
+      <div class="container" style="max-width: 900px;">
+        
+        <!-- Overview -->
+        <div style="margin-bottom: 4rem;">
+          <h3 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--primary-color);">Project Overview</h3>
+          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-light); margin-bottom: 1rem;">
+            During my summer internship at Advanced Technology and Research Corp in Beltsville, MD, I worked with an engineering team to design and build a UAV launcher system. This 1/8th scale model will eventually launch fighter jets, but currently launches remote control UAVs weighing approximately 30 lbs.
+          </p>
+          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-light);">
+            My contributions focused on analytical modeling, design iteration, and field validation through live testing at Griffon Aerospace in Huntsville, Alabama.
+          </p>
+        </div>
+
+        <!-- Launch Mechanism -->
+        <div style="margin-bottom: 4rem;">
+          <h3 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--primary-color);">Launch Mechanism</h3>
+          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-light); margin-bottom: 1.5rem;">
+            The launcher uses a flywheel-based system to generate launch energy:
+          </p>
+          <div style="background: white; padding: 2rem; border-radius: 8px; box-shadow: var(--shadow);">
+            <ul style="list-style: none; margin-left: 0;">
+              <li style="margin-bottom: 1rem; padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+                <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">•</span>
+                A high-speed flywheel stores rotational kinetic energy
+              </li>
+              <li style="margin-bottom: 1rem; padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+                <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">•</span>
+                A cord mechanism couples the flywheel to the UAV
+              </li>
+              <li style="padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+                <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">•</span>
+                Energy transfer accelerates the UAV down the launch rail
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Analysis Workbooks -->
+        <div style="margin-bottom: 4rem;">
+          <h3 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--primary-color);">Analytical Modeling Workbooks</h3>
+          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-light); margin-bottom: 1.5rem;">
+            I created comprehensive calculation workbooks to model and predict launcher performance. These analytical models calculated key parameters every 0.01 seconds after launch:
+          </p>
+          <div style="background: var(--bg-light); padding: 2rem; border-radius: 8px; margin-bottom: 1.5rem;">
+            <h4 style="font-size: 1.2rem; margin-bottom: 1rem; color: var(--text-dark);">Predicted Parameters</h4>
+            <ul style="list-style: none; margin-left: 0;">
+              <li style="margin-bottom: 0.75rem; padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+                <strong style="color: var(--primary-color);">Position:</strong> Displacement along the launch rail
+              </li>
+              <li style="margin-bottom: 0.75rem; padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+                <strong style="color: var(--primary-color);">Force:</strong> Applied force from the flywheel mechanism
+              </li>
+              <li style="margin-bottom: 0.75rem; padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+                <strong style="color: var(--primary-color);">Velocity:</strong> Velocity profile during acceleration
+              </li>
+              <li style="padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+                <strong style="color: var(--primary-color);">Acceleration:</strong> Acceleration as a function of position and time
+              </li>
+            </ul>
+          </div>
+          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-light);">
+            This high-resolution temporal modeling enabled us to optimize launch parameters and predict system behavior before fabrication and testing.
+          </p>
+        </div>
+
+        <!-- Design Work -->
+        <div style="margin-bottom: 4rem;">
+          <h3 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--primary-color);">Design & Manufacturing</h3>
+          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-light); margin-bottom: 1.5rem;">
+            Using SolidWorks, I designed, manufactured, and assembled mechanical components for the launcher system:
+          </p>
+          <ul style="list-style: none; margin-left: 0;">
+            <li style="margin-bottom: 1rem; padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+              <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">•</span>
+              3D CAD modeling and engineering drawings
+            </li>
+            <li style="margin-bottom: 1rem; padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+              <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">•</span>
+              Component fabrication and assembly
+            </li>
+            <li style="margin-bottom: 1rem; padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+              <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">•</span>
+              Integration of flywheel, cord, and launch rail systems
+            </li>
+            <li style="padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+              <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">•</span>
+              Collaboration with manufacturing team for production
+            </li>
+          </ul>
+        </div>
+
+        <!-- Field Testing -->
+        <div style="margin-bottom: 4rem;">
+          <h3 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--primary-color);">Field Testing in Huntsville</h3>
+          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-light); margin-bottom: 1.5rem;">
+            We conducted live testing of the launcher in collaboration with Griffon Aerospace in Huntsville, Alabama. This testing provided critical validation data:
+          </p>
+          <div style="background: white; padding: 2rem; border-radius: 8px; box-shadow: var(--shadow);">
+            <ul style="list-style: none; margin-left: 0;">
+              <li style="margin-bottom: 1rem; padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+                <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">•</span>
+                Comparison of analytical predictions with actual launch data
+              </li>
+              <li style="margin-bottom: 1rem; padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+                <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">•</span>
+                Optimization of launch parameters based on empirical results
+              </li>
+              <li style="margin-bottom: 1rem; padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+                <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">•</span>
+                Validation of modeling assumptions and accuracy
+              </li>
+              <li style="padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+                <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">•</span>
+                Real-world validation in aerospace testing environment
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Key Findings -->
+        <div style="margin-bottom: 4rem;">
+          <h3 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--primary-color);">Key Findings</h3>
+          <div style="background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); padding: 3rem; border-radius: 8px; color: white;">
+            <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1rem;">
+              The field testing revealed that while the launch mechanism performed well, the overall structure was not sound enough for the intended application. The structural issues were in the baseline design that existed before my involvement, but this finding led to a complete overhaul of the structural approach.
+            </p>
+            <p style="font-size: 1.1rem; line-height: 1.8;">
+              This experience taught me the value of critical analysis and the importance of questioning baseline assumptions, even when working on established projects.
+            </p>
+          </div>
+        </div>
+
+        <!-- Skills Developed -->
+        <div style="margin-bottom: 4rem;">
+          <h3 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--primary-color);">Skills Developed</h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;">
+            <div style="background: var(--bg-light); padding: 1.5rem; border-radius: 8px;">
+              <h4 style="font-size: 1.1rem; margin-bottom: 0.75rem; color: var(--primary-color);">Analytical Modeling</h4>
+              <p style="font-size: 0.95rem; color: var(--text-light);">Hand calculations and Excel workbooks</p>
+            </div>
+            <div style="background: var(--bg-light); padding: 1.5rem; border-radius: 8px;">
+              <h4 style="font-size: 1.1rem; margin-bottom: 0.75rem; color: var(--primary-color);">CAD Design</h4>
+              <p style="font-size: 0.95rem; color: var(--text-light);">SolidWorks modeling</p>
+            </div>
+            <div style="background: var(--bg-light); padding: 1.5rem; border-radius: 8px;">
+              <h4 style="font-size: 1.1rem; margin-bottom: 0.75rem; color: var(--primary-color);">Testing & Validation</h4>
+              <p style="font-size: 0.95rem; color: var(--text-light);">Field testing protocols</p>
+            </div>
+            <div style="background: var(--bg-light); padding: 1.5rem; border-radius: 8px;">
+              <h4 style="font-size: 1.1rem; margin-bottom: 0.75rem; color: var(--primary-color);">Collaboration</h4>
+              <p style="font-size: 0.95rem; color: var(--text-light);">Team coordination</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image Gallery -->
+        <div style="margin: 4rem 0; text-align: center; background: var(--bg-light); padding: 3rem; border-radius: 8px;">
+          <p style="color: var(--text-light); margin-bottom: 0.5rem;">📸 Image Gallery Coming Soon</p>
+          <p style="color: var(--text-light); font-size: 0.9rem;">
+            Suggested images: Launcher system overview, CAD renderings, testing setup in Huntsville, data plots comparing predicted vs actual
+          </p>
+        </div>
+
+        <!-- Back to Projects -->
+        <div style="text-align: center; margin-top: 4rem;">
+          <a href="index.html#projects" class="btn btn-primary">Back to Projects</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Zev Schuman. Built with HTML, CSS, and JavaScript.</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
+

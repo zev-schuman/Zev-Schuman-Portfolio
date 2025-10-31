@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yerf-Dog Autonomous Buggy - Zev Schuman Portfolio</title>
+    <link rel="stylesheet" href="css/option-a.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="index.html" class="nav-logo">ZS</a>
+        <ul class="nav-menu">
+          <li><a href="index.html#about" class="nav-link">About</a></li>
+          <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+          <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Project Hero -->
+    <section class="hero" style="padding-top: 8rem;">
+      <div class="container" style="max-width: 900px;">
+        <div style="text-align: center; margin-bottom: 3rem;">
+          <p style="color: var(--primary-color); font-weight: 600; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 1px;">
+            Spring 2025 • Senior Thesis
+          </p>
+          <h1 style="font-size: 3rem; margin-bottom: 1rem; color: var(--text-dark);">
+            Yerf-Dog: Autonomous Buggy
+          </h1>
+          <h2 style="font-size: 1.5rem; color: var(--text-light); font-weight: 400;">
+            Rebuilt & Electrified Go-Kart with Computer Vision
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Content -->
+    <section style="padding: 4rem 0;">
+      <div class="container" style="max-width: 900px;">
+        
+        <!-- Overview -->
+        <div style="margin-bottom: 4rem;">
+          <h3 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--primary-color);">Project Overview</h3>
+          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-light); margin-bottom: 1rem;">
+            As my senior thesis at Princeton University, I led a team of three to transform a non-functional, rust-covered go-kart into a fully autonomous vehicle. This project combined mechanical redesign, electrical integration, control systems, and artificial intelligence to create a working autonomous platform.
+          </p>
+          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-light);">
+            We successfully demonstrated autonomous navigation on campus roads, showcasing the integration of computer vision, real-time control, and custom mechanical systems.
+          </p>
+        </div>
+
+        <!-- Starting Point -->
+        <div style="margin-bottom: 4rem;">
+          <h3 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--primary-color);">The Starting Point</h3>
+          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-light); margin-bottom: 1.5rem;">
+            The original Yerf-Dog go-kart was in rough shape:
+          </p>
+          <ul style="list-style: none; margin-left: 0;">
+            <li style="margin-bottom: 1rem; padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+              <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">•</span>
+              Lots of bad/rusty paint covering the frame
+            </li>
+            <li style="margin-bottom: 1rem; padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+              <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">•</span>
+              Non-functioning gas engine (which we actually managed to fix before scrapping it)
+            </li>
+            <li style="margin-bottom: 1rem; padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+              <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">•</span>
+              Awful steering column with significant play and poor feedback
+            </li>
+            <li style="padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+              <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">•</span>
+              Old deflated wheels and worn components throughout
+            </li>
+          </ul>
+        </div>
+
+        <!-- Drivetrain Overhaul -->
+        <div style="margin-bottom: 4rem;">
+          <h3 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--primary-color);">Drivetrain Overhaul</h3>
+          <div style="background: white; padding: 2rem; border-radius: 8px; box-shadow: var(--shadow);">
+            <h4 style="font-size: 1.2rem; margin-bottom: 1rem; color: var(--text-dark);">Electrification</h4>
+            <p style="font-size: 1rem; line-height: 1.8; color: var(--text-light); margin-bottom: 1.5rem;">
+              We replaced the gas engine with an electric motor system, enabling precise control and better integration with autonomous systems. This required careful consideration of power requirements, battery placement, and thermal management.
+            </p>
+            
+            <h4 style="font-size: 1.2rem; margin-bottom: 1rem; color: var(--text-dark);">Custom Gearbox Design</h4>
+            <p style="font-size: 1rem; line-height: 1.8; color: var(--text-light); margin-bottom: 1rem;">
+              We designed and fabricated a custom gearbox optimized for autonomous operation. Through iterative testing, we fine-tuned the gear ratio:
+            </p>
+            <ul style="list-style: none; margin-left: 0; margin-bottom: 1.5rem;">
+              <li style="margin-bottom: 0.5rem; padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+                <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">•</span>
+                <strong>Started at 60:1</strong> - High torque, low speed
+              </li>
+              <li style="margin-bottom: 0.5rem; padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+                <span style="position: absolute; left: 0; color: var(--primary-color); font-weight: bold;">•</span>
+                <strong>Gradually decreased to 16:1</strong> - Optimal balance once we confirmed sufficient torque
+              </li>
+            </ul>
+            <p style="font-size: 1rem; line-height: 1.8; color: var(--text-light);">
+              This optimization process taught me the importance of balancing speed and torque for autonomous vehicle control, where predictable response is more valuable than peak performance.
+            </p>
+          </div>
+        </div>
+
+        <!-- Computer Vision -->
+        <div style="margin-bottom: 4rem;">
+          <h3 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--primary-color);">Computer Vision System</h3>
+          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-light); margin-bottom: 1.5rem;">
+            I developed a comprehensive computer vision pipeline for real-time road sensing and autonomous steering control:
+          </p>
+          
+          <div style="background: var(--bg-light); padding: 2rem; border-radius: 8px; margin-bottom: 1.5rem;">
+            <h4 style="font-size: 1.2rem; margin-bottom: 1rem; color: var(--text-dark);">YOLOv8 for Object Detection</h4>
+            <p style="font-size: 1rem; line-height: 1.8; color: var(--text-light);">
+              I implemented YOLOv8 (You Only Look Once version 8) for real-time object detection. This state-of-the-art model allowed the buggy to identify and track obstacles, lane markings, and other vehicles with high accuracy and low latency.
+            </p>
+          </div>
+
+          <div style="background: var(--bg-light); padding: 2rem; border-radius: 8px;">
+            <h4 style="font-size: 1.2rem; margin-bottom: 1rem; color: var(--text-dark);">SegFormer for Semantic Segmentation</h4>
+            <p style="font-size: 1rem; line-height: 1.8; color: var(--text-light);">
+              For precise road boundary detection, I integrated SegFormer, a transformer-based semantic segmentation model. This provided pixel-level classification of the road surface, enabling precise navigation even with irregular lane markings.
+            </p>
+          </div>
+        </div>
+
+        <!-- Biggest Challenge: Steering -->
+        <div style="margin-bottom: 4rem;">
+          <h3 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--primary-color);">The Biggest Challenge: Steering</h3>
+          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-light); margin-bottom: 1.5rem;">
+            The steering column presented our most significant technical challenge. It was a complicated assembly where multiple components could (and did) fail:
+          </p>
+          
+          <div style="background: white; padding: 2rem; border-radius: 8px; box-shadow: var(--shadow);">
+            <h4 style="font-size: 1.2rem; margin-bottom: 1rem; color: var(--text-dark);">What Went Wrong</h4>
+            <ul style="list-style: none; margin-left: 0; margin-bottom: 1.5rem;">
+              <li style="margin-bottom: 1rem; padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+                <span style="position: absolute; left: 0; color: var(--error); font-weight: bold;">✗</span>
+                Gear failures in the steering mechanism
+              </li>
+              <li style="margin-bottom: 1rem; padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+                <span style="position: absolute; left: 0; color: var(--error); font-weight: bold;">✗</span>
+                Motor control issues with our initial approach
+              </li>
+              <li style="padding-left: 2rem; position: relative; color: var(--text-light); line-height: 1.8;">
+                <span style="position: absolute; left: 0; color: var(--error); font-weight: bold;">✗</span>
+                Our original mechanical linkage method failed under load
+              </li>
+            </ul>
+
+            <h4 style="font-size: 1.2rem; margin-bottom: 1rem; color: var(--text-dark);">The Solution: Steer-by-Wire</h4>
+            <p style="font-size: 1rem; line-height: 1.8; color: var(--text-light);">
+              After multiple rebuilds and adaptations, we pivoted to a steer-by-wire system. This approach eliminated mechanical linkages entirely, using electric actuators controlled directly by the autonomous system. This solution provided precise control, reduced backlash, and simplified integration with our control algorithms.
+            </p>
+          </div>
+        </div>
+
+        <!-- Demonstration -->
+        <div style="margin-bottom: 4rem;">
+          <h3 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--primary-color);">Successful Demonstration</h3>
+          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-light); margin-bottom: 1rem;">
+            Despite the numerous challenges, we successfully demonstrated autonomous driving on the roads near Princeton's engineering buildings. The buggy navigated real-world conditions, avoiding obstacles, following lanes, and executing steering commands in real-time.
+          </p>
+          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-light);">
+            This project taught me invaluable lessons about system integration, troubleshooting complex mechanical-electrical systems, and the importance of flexible design approaches when traditional methods fail.
+          </p>
+        </div>
+
+        <!-- Key Technologies -->
+        <div style="background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); padding: 3rem; border-radius: 8px; color: white; margin-bottom: 4rem;">
+          <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem; text-align: center;">Key Technologies</h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;">
+            <div style="text-align: center;">
+              <p style="font-weight: 600; margin-bottom: 0.5rem;">Computer Vision</p>
+              <p style="opacity: 0.9; font-size: 0.9rem;">YOLOv8, SegFormer</p>
+            </div>
+            <div style="text-align: center;">
+              <p style="font-weight: 600; margin-bottom: 0.5rem;">Control Systems</p>
+              <p style="opacity: 0.9; font-size: 0.9rem;">Steer-by-Wire</p>
+            </div>
+            <div style="text-align: center;">
+              <p style="font-weight: 600; margin-bottom: 0.5rem;">CAD</p>
+              <p style="opacity: 0.9; font-size: 0.9rem;">CREO Parametric</p>
+            </div>
+            <div style="text-align: center;">
+              <p style="font-weight: 600; margin-bottom: 0.5rem;">Electronics</p>
+              <p style="opacity: 0.9; font-size: 0.9rem;">Motor Control</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image Gallery -->
+        <div style="margin: 4rem 0; text-align: center; background: var(--bg-light); padding: 3rem; border-radius: 8px;">
+          <p style="color: var(--text-light); margin-bottom: 0.5rem;">📸 Image Gallery Coming Soon</p>
+          <p style="color: var(--text-light); font-size: 0.9rem;">
+            Suggested images: Before/after comparison, gearbox assembly, computer vision output display, autonomous driving demo, steering column details
+          </p>
+        </div>
+
+        <!-- Back to Projects -->
+        <div style="text-align: center; margin-top: 4rem;">
+          <a href="index.html#projects" class="btn btn-primary">Back to Projects</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Zev Schuman. Built with HTML, CSS, and JavaScript.</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
