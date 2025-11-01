@@ -580,5 +580,14 @@ section {
     .education-year {
         margin-top: 0.25rem;
     }
+
+    /* Education logo mobile fix */
+    .education-item > div {
+        flex-wrap: wrap;
+    }
+
+    .education-item img {
+        height: 32px !important;
+    }
 }
 
