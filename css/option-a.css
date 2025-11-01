@@ -582,12 +582,14 @@ section {
     }
 
     /* Education logo mobile fix */
-    .education-item > div {
-        flex-wrap: wrap;
+    .education-item {
+        flex-direction: column !important;
+        align-items: center !important;
     }
 
     .education-item img {
-        height: 60px !important;
+        height: 100px !important;
+        margin-bottom: 1rem;
     }
 }
 
