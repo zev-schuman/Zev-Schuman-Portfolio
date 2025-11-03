@@ -581,15 +581,9 @@ section {
         margin-top: 0.25rem;
     }
 
-    /* Education logo mobile fix */
-    .education-item {
-        flex-direction: column !important;
-        align-items: center !important;
-    }
-
-    .education-item img {
-        height: 100px !important;
-        margin-bottom: 1rem;
+    /* Hero logos mobile fix */
+    .hero img {
+        height: 40px !important;
     }
 }
 
