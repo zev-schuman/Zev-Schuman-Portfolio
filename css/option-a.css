@@ -601,13 +601,15 @@ section {
         height: 50px !important;
     }
 
-    /* Prevent phone number from wrapping */
+    /* Line breaks for mobile contact info */
     .hero-contact {
-        white-space: nowrap;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0.5rem;
     }
 
-    .hero-contact a {
-        white-space: nowrap;
+    .contact-separator {
+        display: none;
     }
 }
 
