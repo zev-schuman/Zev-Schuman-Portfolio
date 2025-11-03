@@ -534,7 +534,17 @@ section {
 
     /* Hero name with logos mobile layout */
     .hero-content > div:first-child {
+        flex-wrap: wrap !important;
         gap: 1rem !important;
+    }
+
+    .hero-content > div:first-child h1 {
+        width: 100%;
+        order: -1;
+    }
+
+    .hero-content > div:first-child img {
+        order: 0;
     }
 
     .hero-cta {
@@ -589,6 +599,15 @@ section {
     /* Hero logos mobile fix */
     .hero-content img {
         height: 50px !important;
+    }
+
+    /* Prevent phone number from wrapping */
+    .hero-contact {
+        white-space: nowrap;
+    }
+
+    .hero-contact a {
+        white-space: nowrap;
     }
 }
 
