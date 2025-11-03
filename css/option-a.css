@@ -529,7 +529,12 @@ section {
     }
 
     .hero-name {
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+
+    /* Hero name with logos mobile layout */
+    .hero-content > div:first-child {
+        gap: 1rem !important;
     }
 
     .hero-cta {
@@ -582,8 +587,8 @@ section {
     }
 
     /* Hero logos mobile fix */
-    .hero img {
-        height: 40px !important;
+    .hero-content img {
+        height: 50px !important;
     }
 }
 
