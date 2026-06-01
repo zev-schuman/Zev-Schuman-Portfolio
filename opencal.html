@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OpenCAL Capstone - Zev Schuman Portfolio</title>
+    <link rel="stylesheet" href="css/option-a.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="index.html" class="nav-logo">ZS</a>
+        <ul class="nav-menu">
+          <li><a href="index.html#about" class="nav-link">About</a></li>
+          <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+          <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Project Hero -->
+    <section class="hero" style="padding-top: 8rem">
+      <div class="container" style="max-width: 900px">
+        <div style="text-align: center; margin-bottom: 3rem">
+          <p
+            style="
+              color: var(--primary-color);
+              font-weight: 600;
+              margin-bottom: 1rem;
+              text-transform: uppercase;
+              letter-spacing: 1px;
+            "
+          >
+            2025–26 • MEng Capstone • UC Berkeley
+          </p>
+          <h1
+            style="
+              font-size: 3rem;
+              margin-bottom: 1rem;
+              color: var(--text-dark);
+            "
+          >
+            OpenCAL
+          </h1>
+          <h2
+            style="
+              font-size: 1.5rem;
+              color: var(--text-light);
+              font-weight: 400;
+            "
+          >
+            Open-Source Layerless Instant 3D Printer
+          </h2>
+        </div>
+        <img
+          src="images/opencal/hero.jpg"
+          alt="OpenCAL full build"
+          style="
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            margin-bottom: 2rem;
+          "
+        />
+        <div
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+          "
+        >
+          <a
+            href="https://github.com/computed-axial-lithography/OpenCAL"
+            class="btn btn-primary"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub Repository</a
+          >
+          <a
+            href="https://opencal.readthedocs.io/"
+            class="btn btn-outline"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Documentation</a
+          >
+          <a
+            href="https://funginstitute.berkeley.edu/capstone-project/opencal-an-open-source-layerless-3d-printer-and-software/"
+            class="btn btn-outline"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Fung Institute Project Page</a
+          >
+          <a
+            href="docs/OpenCAL_FinalReport_2026.pdf"
+            class="btn btn-outline"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Final Report (PDF)</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Content -->
+    <section style="padding: 4rem 0">
+      <div class="container" style="max-width: 900px">
+        <!-- Overview -->
+        <div style="margin-bottom: 4rem">
+          <h3
+            style="
+              font-size: 2rem;
+              margin-bottom: 1.5rem;
+              color: var(--primary-color);
+            "
+          >
+            Project Overview
+          </h3>
+          <p
+            style="
+              font-size: 1.1rem;
+              line-height: 1.8;
+              color: var(--text-light);
+              margin-bottom: 1rem;
+            "
+          >
+            OpenCAL is an open-source Computed Axial Lithography (CAL) printer—a
+            volumetric additive manufacturing platform that cures photopolymer
+            resin in a single step rather than building parts layer-by-layer.
+            Unlike conventional SLA or FFF systems, CAL uses a visible-light
+            projector and a rotating resin vial to form complete 3D geometries at
+            once, enabling faster print times and more complex internal features
+            without traditional support structures.
+          </p>
+          <p
+            style="
+              font-size: 1.1rem;
+              line-height: 1.8;
+              color: var(--text-light);
+            "
+          >
+            Our MEng capstone team at UC Berkeley designed OpenCAL to broaden
+            access to CAL beyond well-funded research labs. The system is built
+            from commercial off-the-shelf components and 3D-printed parts for
+            assembly with minimal tooling, paired with open-source software for
+            projection image generation and printer control.
+          </p>
+        </div>
+
+        <!-- My Contributions -->
+        <div style="margin-bottom: 4rem">
+          <h3
+            style="
+              font-size: 2rem;
+              margin-bottom: 1.5rem;
+              color: var(--primary-color);
+            "
+          >
+            My Contributions
+          </h3>
+          <p
+            style="
+              font-size: 1.1rem;
+              line-height: 1.8;
+              color: var(--text-light);
+              margin-bottom: 1.5rem;
+            "
+          >
+            I helped design and fabricate a novel instant, layerless 3D printer
+            for this master's capstone, with a focus on precision mechanisms and
+            system integration—from concept through a working physical platform.
+          </p>
+          <ul style="list-style: none; margin-left: 0">
+            <li
+              style="
+                margin-bottom: 1rem;
+                padding-left: 2rem;
+                position: relative;
+                color: var(--text-light);
+                line-height: 1.8;
+              "
+            >
+              <span
+                style="
+                  position: absolute;
+                  left: 0;
+                  color: var(--primary-color);
+                  font-weight: bold;
+                "
+                >•</span
+              >
+              <strong style="color: var(--text-dark)"
+                >Mechanical design lead:</strong
+              >
+              Structural frame, motion constraints, and part fixturing for core
+              subsystems including the rotation stage and resin vial assembly
+            </li>
+            <li
+              style="
+                margin-bottom: 1rem;
+                padding-left: 2rem;
+                position: relative;
+                color: var(--text-light);
+                line-height: 1.8;
+              "
+            >
+              <span
+                style="
+                  position: absolute;
+                  left: 0;
+                  color: var(--primary-color);
+                  font-weight: bold;
+                "
+                >•</span
+              >
+              <strong style="color: var(--text-dark)"
+                >Fabrication & integration:</strong
+              >
+              Iterative prototyping and assembly of mechanical modules to meet
+              alignment and accessibility requirements for calibration and service
+            </li>
+            <li
+              style="
+                padding-left: 2rem;
+                position: relative;
+                color: var(--text-light);
+                line-height: 1.8;
+              "
+            >
+              <span
+                style="
+                  position: absolute;
+                  left: 0;
+                  color: var(--primary-color);
+                  font-weight: bold;
+                "
+                >•</span
+              >
+              <strong style="color: var(--text-dark)">CentrifuCAL:</strong>
+              Designed a fully 3D-printed centrifugal post-processing system for
+              resin removal and part finishing (see below)
+            </li>
+          </ul>
+        </div>
+
+        <!-- CentrifuCAL -->
+        <div style="margin-bottom: 4rem">
+          <h3
+            style="
+              font-size: 2rem;
+              margin-bottom: 1.5rem;
+              color: var(--primary-color);
+            "
+          >
+            CentrifuCAL Post-Processing
+          </h3>
+          <p
+            style="
+              font-size: 1.1rem;
+              line-height: 1.8;
+              color: var(--text-light);
+              margin-bottom: 2rem;
+            "
+          >
+            Printed CAL parts emerge coated in uncured resin, so effective
+            post-processing is essential for usability. I designed CentrifuCAL, a
+            companion centrifugal cleaning module built almost entirely from
+            3D-printed components. It spins finished parts to separate excess resin
+            and support part finishing—integrating with the OpenCAL workflow as a
+            practical, makerspace-friendly post-processing solution.
+          </p>
+          <div
+            style="
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+              gap: 2rem;
+            "
+          >
+            <div>
+              <img
+                src="images/opencal/centrifucal-cad.png"
+                alt="CentrifuCAL CAD model"
+                style="
+                  width: 100%;
+                  border-radius: 8px;
+                  box-shadow: var(--shadow);
+                "
+              />
+              <p
+                style="
+                  text-align: center;
+                  color: var(--text-light);
+                  margin-top: 1rem;
+                  font-size: 0.95rem;
+                "
+              >
+                CentrifuCAL CAD design
+              </p>
+            </div>
+            <div>
+              <img
+                src="images/opencal/centrifucal-built.jpg"
+                alt="CentrifuCAL built system"
+                style="
+                  width: 100%;
+                  border-radius: 8px;
+                  box-shadow: var(--shadow);
+                "
+              />
+              <p
+                style="
+                  text-align: center;
+                  color: var(--text-light);
+                  margin-top: 1rem;
+                  font-size: 0.95rem;
+                "
+              >
+                Fabricated CentrifuCAL module
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Open Source & Community -->
+        <div
+          style="
+            background: var(--bg-light);
+            padding: 2rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-color);
+            margin-bottom: 4rem;
+          "
+        >
+          <h3
+            style="
+              font-size: 1.5rem;
+              margin-bottom: 1rem;
+              color: var(--text-dark);
+            "
+          >
+            Open Source & Community
+          </h3>
+          <p
+            style="
+              font-size: 1.1rem;
+              line-height: 1.8;
+              color: var(--text-light);
+              margin-bottom: 1rem;
+            "
+          >
+            We released OpenCAL under an open-source license so research groups,
+            educators, and hobbyists can build and adapt the platform. Hardware
+            designs, bills of materials, and Python-based control software are
+            available on GitHub, with documentation at Read the Docs.
+          </p>
+          <p
+            style="
+              font-size: 1.1rem;
+              line-height: 1.8;
+              color: var(--text-light);
+            "
+          >
+            As the platform gained traction, I supported external builders
+            troubleshooting assembly and mechanical integration—helping early
+            community adoption as groups began replicating the system in academic
+            makerspaces.
+          </p>
+        </div>
+
+        <!-- Team & Advisors -->
+        <div style="margin-bottom: 4rem">
+          <h3
+            style="
+              font-size: 2rem;
+              margin-bottom: 1.5rem;
+              color: var(--primary-color);
+            "
+          >
+            Team & Advisors
+          </h3>
+          <p
+            style="
+              font-size: 1.1rem;
+              line-height: 1.8;
+              color: var(--text-light);
+              margin-bottom: 1rem;
+            "
+          >
+            <strong style="color: var(--text-dark)">Advisors:</strong> Hayden
+            Taylor, Taylor Waddell
+          </p>
+          <p
+            style="
+              font-size: 1.1rem;
+              line-height: 1.8;
+              color: var(--text-light);
+            "
+          >
+            <strong style="color: var(--text-dark)">Capstone team:</strong> Maya
+            Lund, Wangari Mbuthia, Paul Morenkov, Zev Schuman, Bryan Vu
+          </p>
+        </div>
+
+        <!-- Impact -->
+        <div
+          style="
+            background: linear-gradient(
+              135deg,
+              var(--primary-color),
+              var(--secondary-color)
+            );
+            padding: 3rem;
+            border-radius: 8px;
+            color: white;
+            text-align: center;
+            margin-bottom: 4rem;
+          "
+        >
+          <h3 style="font-size: 2rem; margin-bottom: 1rem">Project Impact</h3>
+          <p style="font-size: 1.2rem; line-height: 1.8; opacity: 0.95">
+            We delivered a working CAL printing and post-processing platform,
+            open-sourced the full stack for non-commercial research and education,
+            and began community adoption—with external builders replicating the
+            system and a pilot deployment planned for UC Berkeley's Jacobs
+            Makerspace.
+          </p>
+        </div>
+
+        <!-- Image Gallery -->
+        <div style="margin: 4rem 0">
+          <h3
+            style="
+              font-size: 2rem;
+              margin-bottom: 2rem;
+              color: var(--primary-color);
+            "
+          >
+            Build & Enclosure
+          </h3>
+          <div
+            style="
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+              gap: 2rem;
+            "
+          >
+            <div>
+              <img
+                src="images/opencal/enclosure-open.jpg"
+                alt="OpenCAL with enclosure open"
+                style="
+                  width: 100%;
+                  border-radius: 8px;
+                  box-shadow: var(--shadow);
+                "
+              />
+              <p
+                style="
+                  text-align: center;
+                  color: var(--text-light);
+                  margin-top: 1rem;
+                  font-size: 0.95rem;
+                "
+              >
+                Full system with enclosure open for service access
+              </p>
+            </div>
+            <div>
+              <img
+                src="images/opencal/enclosure-door.jpg"
+                alt="OpenCAL with door open"
+                style="
+                  width: 100%;
+                  border-radius: 8px;
+                  box-shadow: var(--shadow);
+                "
+              />
+              <p
+                style="
+                  text-align: center;
+                  color: var(--text-light);
+                  margin-top: 1rem;
+                  font-size: 0.95rem;
+                "
+              >
+                Enclosure door open showing internal layout
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Back to Projects -->
+        <div style="text-align: center; margin-top: 4rem">
+          <a href="index.html#projects" class="btn btn-primary"
+            >Back to Projects</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 Zev Schuman. Built with HTML, CSS, and JavaScript.</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
